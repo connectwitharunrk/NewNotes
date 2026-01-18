@@ -1,4 +1,4 @@
-package com.arunrk.newnotes.ui.theme
+package com.arunrk.newnotes.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
