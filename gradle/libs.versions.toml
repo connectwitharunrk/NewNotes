@@ -1,27 +1,30 @@
 [versions]
-agp = "8.13.2"
-kotlin = "2.3.0"
-coreKtx = "1.17.0"
+agp = "8.7.3"
+kotlin = "2.1.0"
+coreKtx = "1.15.0"
 junit = "4.13.2"
-junitVersion = "1.3.0"
-espressoCore = "3.7.0"
-lifecycleRuntimeKtx = "2.10.0"
-activityCompose = "1.12.2"
-composeBom = "2025.12.01"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.3"
+composeBom = "2024.12.01"
 
-
-kotlinxCoroutinesAndroid = "1.10.2"
-lifecycleViewmodelKtx = "2.10.0"
-navigationCompose = "2.9.6"
-okhttp = "5.3.2"
-retrofit = "3.0.0"
-ksp = "2.0.21-1.0.27"
-hilt = "2.57.2"
+kotlinxCoroutinesAndroid = "1.9.0"
+lifecycleViewmodelKtx = "2.8.7"
+navigationCompose = "2.8.5"
+okhttp = "4.12.0"
+retrofit = "2.11.0"
+ksp = "2.1.0-1.0.29"
+hilt = "2.54"
 coilCompose = "2.7.0"
-hiltNavigationCompose = "1.3.0"
+hiltNavigationCompose = "1.2.0"
+roomRuntime = "2.6.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
