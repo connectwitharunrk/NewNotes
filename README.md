@@ -1,6 +1,7 @@
 # Android Notes Application
 
-A modern Android notes application built with **Kotlin**, following **Clean Architecture** and **MVI (Model-View-Intent)** pattern with **Jetpack Compose** UI.
+A modern Android notes application built with **Kotlin**, following **Clean Architecture** and **MVI (Model-View-Intent)**
+pattern with **Jetpack Compose** UI.
 
 ---
 
